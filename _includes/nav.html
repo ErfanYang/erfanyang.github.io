@@ -1,0 +1,56 @@
+<div class="wrapper-sidebar">
+
+  <header class="sidebar clearfix">
+    <div class="site-info">
+      {% if site.avatar %}
+        <!-- <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a> -->
+        <div id="space">
+          <div id="my_cube">
+            <div style="text-align: center; width:300px;">
+              <img src="../images/avatar.jpg" alt="photo" style="margin:0 auto; max-width:100%; height:auto;"/>
+            </div> 
+           <!-- <link rel="stylesheet" href="../css/index-2.css">  -->
+          </div>
+        </div>
+      {% endif %} 
+
+      <div id="space"></div>
+
+      <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+      <p class="site-description">{{ site.description }}</p>
+    </div>
+  </header>
+
+  <style>
+    #my_cube{
+      position: absolute;
+      top:15%;
+      left: 15%;
+      display: flex;
+    }
+  
+    #space{
+      display: flex;
+      height:150px;
+      width: 200px;
+    }
+    </style>
+
+  <div class="navlist">
+    <nav>
+      {% for nav in site.navigation %}
+      {% if nav.url contains 'http://' or nav.url contains 'https://' %}
+      <a href="{{ nav.url }}">{{ nav.name }}</a>
+      {% else %}
+      <a href="{{ site.baseurl }}{{ nav.url }}">{{ nav.name }}</a>
+      {% endif %}
+      {% endfor %}
+    </nav>
+  </div>
+
+  <div class="wrapper-footer-desktop">
+    <footer class="footer">
+      {% include footer.html %}
+    </footer>
+  </div>
+</div>
