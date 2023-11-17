@@ -62,11 +62,11 @@ cannot load such file -- rexml/parsers/baseparser (LoadError)
 ```
 First try "bundle add webrick". If it does not work, try "bundle install" or "bundle update". But the latter command does not always update all gems so sometimes you have to update it manually by changing the version command in "Gemfile" (can be openned in Notepad).
 In the process of updating, you might encounter a new error about version control. For example,
+
 ```
 Fetching gem metadata from https://gems.ruby-china.com/.........
 Resolving dependencies...
 Could not find compatible versions
-
 Because github-pages >= 9, < 14 depends on kramdown = 1.2.0
   and github-pages < 9 depends on kramdown = 1.0.2,
   github-pages < 14 requires kramdown = 1.0.2 OR = 1.2.0.
