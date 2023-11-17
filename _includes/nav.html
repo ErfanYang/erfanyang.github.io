@@ -1,40 +1,27 @@
 <div class="wrapper-sidebar">
-
-  <header class="sidebar clearfix">
-    <div class="site-info">
-      {% if site.avatar %}
-        <!-- <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a> -->
-        <div id="space">
-          <div id="my_cube">
-            <div style="text-align: center; width:300px;">
-              <img src="../images/avatar.jpg" alt="photo" style="margin:0 auto; max-width:100%; height:auto;"/>
-            </div> 
-           <!-- <link rel="stylesheet" href="../css/index-2.css">  -->
-          </div>
-        </div>
-      {% endif %} 
-
-      <div id="space"></div>
-
-      <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-      <p class="site-description">{{ site.description }}</p>
-    </div>
-  </header>
-
-  <style>
-    #my_cube{
-      position: absolute;
-      top:15%;
-      left: 15%;
-      display: flex;
+  <div class="box1">
+    <h1></h1>
+    <div class="box2"><img src="../images/avatar.jpg" alt="avatar" style="width:100%; height:auto;margin: auto;"/></div>
+    
+    <h1></h1>
+    <h1></h1>
+    
+    <h1 align="center" class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+    <p align="center" class="site-description">{{ site.description }}</p>
+  </div>
+  <style type="text/css">
+    div.box1{
+      margin: auto;
+      width: 90%;
+      height: auto;
     }
-  
-    #space{
-      display: flex;
-      height:150px;
-      width: 200px;
+    div.box2{
+      display: block;
+      margin:auto;
+      width: 80%;
+      height: auto;
     }
-    </style>
+  </style>
 
   <div class="navlist">
     <nav>
