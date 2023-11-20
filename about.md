@@ -65,4 +65,6 @@ The Youth Honor Program <span style="float:right">2018-Present</span>
 
 The Talent Student Training Program in Physics <span style="float:right">2020-Present</span>
 
-National Optoelectronic Design Competition, Provincial Second Prize <span style="float:right">July 2022</span>
+National Optoelectronic Design Competition, Second prize in the Northwest section <span style="float:right">July 2022</span>
+
+National Physical Experimental Competition, The National Third Prize <span style="float:right">2021</span>
