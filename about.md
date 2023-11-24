@@ -3,6 +3,15 @@ layout: page
 title: About and CV
 permalink: /about/
 ---
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-D0Z8QZXYVK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-D0Z8QZXYVK');
+</script>
 
 # Erfan Yang
 
@@ -25,7 +34,7 @@ in the field of quantum optics, especially in cold atoms through doctorate-level
 **Team Leader** <span style="float:right">July 2022</span>
 - Led a team in a competition focused on an underwater imaging system based on polarization fusion and the Yolo algorithm
 
-**Research Apprentice** <span style="float:right">Spring 2022</span>
+**Research Apprentice** Xi’an Jiaotong University, Advisor: Prof. Nanning Zheng<span style="float:right">Spring 2022</span>
 - Looked into both physics for AI and AI for physics theoretically and investigated the principles and applications Physics-informed neural networks
 
 
