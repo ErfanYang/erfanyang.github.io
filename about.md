@@ -25,8 +25,8 @@ in the field of quantum optics, especially in cold atoms through doctorate-level
 **Team Leader** <span style="float:right">July 2022</span>
 - Led a team in a competition focused on an underwater imaging system based on polarization fusion and the Yolo algorithm
 
-**Research Apprentice** <span style="float:right">Spring 2022</span>
-- Looked into both physics for AI and AI for physics theoretically and investigated the principles and applications Physics-informed neural networks
+**Research Apprentice** Xi’an Jiaotong University, Advisor: Prof. Nanning Zheng <span style="float:right">Spring 2022</span>
+- Looked into both physics for AI and AI for physics theoretically and investigated the principles and applications of Physics-informed neural networks
 
 
 ## Skills
