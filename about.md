@@ -17,13 +17,16 @@ in the field of quantum optics, especially in cold atoms through doctorate-level
 - Assisted in producing cold Rb atoms in the magneto-optical trap by four-wave mixing and exploring new methods of quantum memory
 
 **Research Apprentice** UC Berkeley, Advisor: Prof. Eric Y. Ma <span style="float:right">Oct 2022-June 2023</span>
-- Looked into nonlinear optical effects in phthalocyanine thin films theoretically and experimentally and learned how to design and complete an experiment from nothing independently
+- Looked into nonlinear optical effects in phthalocyanine thin films theoretically and experimentally and learned how to design and complete an experiment from scratch independently
 
 **Team Member**  <span style="float:right">Fall 2021</span>
 - Assisted in the realization of low melting point metal near the melting point of the thermal conductivity measurement device
 
 **Team Leader** <span style="float:right">July 2022</span>
 - Led a team in a competition focused on an underwater imaging system based on polarization fusion and the Yolo algorithm
+
+**Research Apprentice** <span style="float:right">Spring 2022</span>
+- Looked into both physics for AI and AI for physics theoretically and investigated the principles and applications Physics-informed neural networks
 
 
 ## Skills
